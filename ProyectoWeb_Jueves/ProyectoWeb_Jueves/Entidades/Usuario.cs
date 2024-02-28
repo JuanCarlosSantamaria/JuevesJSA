@@ -1,4 +1,4 @@
-﻿namespace ProyectoApi_Jueves.Entidades
+﻿namespace ProyectoWeb_Jueves.Entidades
 {
     public class Usuario
     {
@@ -9,7 +9,6 @@
         public short IdRol { get; set; }
         public string? NombreRol { get; set; }
         public bool Estado { get; set; }
-        public string? Token { get; set; }
         public bool? EsTemporal { get; set; }
     }
 
@@ -18,7 +17,7 @@
         public UsuarioRespuesta()
         {
             Codigo = "00";
-            Mensaje = string.Empty;
+            Mensaje = "";
             Dato = null;
             Datos = null;
         }
